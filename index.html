@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Web App – Simple Interest Calculator</title>
+        <script src="C:\Users\HP\Downloads\vftvk-Simple-Interest-Calculator-master\vftvk-Simple-Interest-Calculator-master\script.js"></script>
+        <link rel="stylesheet" href="C:\Users\HP\Downloads\vftvk-Simple-Interest-Calculator-master\vftvk-Simple-Interest-Calculator-master\style.css">
+    </head>
+    <body>
+        <div id="maindiv" class="maindiv">
+            <div id="h1simple" class="h1simple">
+                <h1>Simple Intrest Calculator</h1>
+            </div>
+            <div>
+                <form id="formsimple" class="classsimple">
+                    <div>
+                        <label for="Principle">Amount</label>
+                        <input type="number" id="Principle1" min="1" required><br><br>
+                    </div>
+                    <div>
+                        <label>Intrest Rate</label>
+                        <input type="range" id="Rate" min="0" max="100" step="0.5">
+                        <label for="Rate" ><span for="Rate" required></span></label><br><br>
+                    </div>
+                    <div>
+                        <label for="No of Years">No Of Years</label>
+                        <select id="No Of Years" required>
+                            <option value=""></option>
+                            <option value="1">1</option>
+                            <option value="5">5</option>
+                            <option value="10">10</option>
+                            <option value="15">15</option>
+                            <option value="20">20</option>
+                            <option value="25">25</option>
+                            <option value="30">30</option>
+                            <option value="35">35</option>
+                            <option value="40">40</option>
+                            <option value="45">45</option>
+                            <option value="50">50</option>
+                            <option value="55">55</option>
+                            <option value="60">60</option>
+                        </select><br><br>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary" id="btnSimple" onclick="simpleInterest()">Compute Interest</button><br><br>
+                    </div>   
+                </form>
+            </div>
+                <p1><span>&#169;</span> Everyone Can Get Rich</p1>
+                <div>
+                    <p class="lead mt-3" id="siOutput-01"></p>
+                </div>
+            </div>
+        </div>
+       
+    </body>
+</html>
